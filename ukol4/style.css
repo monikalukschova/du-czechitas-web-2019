@@ -22,7 +22,7 @@ p {
     
 }
 
-element {
+.element {
     box-shadow: 1px 1px 1px 1px #31363b;
   }
 
@@ -48,6 +48,7 @@ body {
     background: #31363b;
     padding: 1rem;
     margin-top: -1rem;
+    margin-bottom: -1rem;
 }
 
 .jmeno {
@@ -64,7 +65,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-weight: 900;
     text-transform: uppercase;
-}*/
+}
 
 .odkazy{
     color: white;
@@ -114,4 +115,74 @@ body {
     margin-right: -16px;
     padding-right: 26.1px;
     padding-left: 26.2px;
+}*/
+
+.odkazy{
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: bolder;
+    background: #31363b; 
+    
+}
+.portfolio {
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 0.5rem;
+    border: solid;
+    border-width: 1px 0px 1px 0px;
+    border-color: #3f464d;
+    align-content: stretch;
+    text-decoration: none;
+    justify-content: center;
+    margin-left: -2.5rem;
+}
+
+.portfolio a {
+    color: #adb9c0;
+    text-decoration: none;
+}
+
+.portfolio a:hover {
+    color: #e74c3c;
+}
+
+.facebook{
+    justify-content: flex-start;
+    padding: 0.5rem;
+    border: solid;
+    border-width: 0px 1px 0px 0px;
+    border-color: #3f464d;
+    flex-wrap: nowrap;
+    display: inline-block;
+    margin-left: -1.3rem;
+    justify-content: space-between;
+}
+
+.facebook a {
+    color: #adb9c0;
+    text-decoration: none;
+}
+
+.facebook a:hover {
+    color: #3b5998;
+    
+}
+
+.twitter {
+    justify-content: start;
+    padding: 0.5rem;
+    border: solid;
+    border-width: 0px 0px 0px 1px;
+    border-color: #3f464d;
+    flex: auto;
+    display: inline-block;
+}
+
+.twitter a {
+    color: #adb9c0;
+    text-decoration: none;
+}
+
+.twitter a:hover {
+    color: #1da1f2;
 }
