@@ -64,14 +64,21 @@ a {
 	text-decoration: underline;
 }
 
-.pozadi {
-     padding: 0rem;
+.fialový {
+    position: relative;
+    height: 540px;
+}
+
+.telefon {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
 }
 
 .appka {
     position: absolute;
-    top: 25px;
-    left: 100px;
+    top: -50px;
+    left: 60px;
     font-size: 7rem;
     color: white;
     font-weight: 400;
@@ -79,8 +86,8 @@ a {
 
 .dvojka {
     position: absolute;
-    top: 250px;
-    left: 100px;
+    top: 150px;
+    left: 60px;
     font-size: 3rem;
     color: white;
     font-weight: 300;    
@@ -88,7 +95,7 @@ a {
 
 .tlacitka {
     position: absolute;
-    top: 500px;
+    top: 450px;
     color: white;
     font-size: 2rem;
 }
@@ -98,12 +105,6 @@ a {
     color: white;
 }
 
-.stahnout {
-    position: absolute;
-    background-color: blue;
-    margin: auto;
-
-}
 
 .ikonky {
     display: flex;
