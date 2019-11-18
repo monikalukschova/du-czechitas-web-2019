@@ -1,0 +1,99 @@
+/* nejsme vcerejsi, pouzivame moderni box model */
+html { box-sizing: border-box; }
+*, ::after, ::before { box-sizing: inherit; }
+
+/*
+ BARVY
+ sede pozadi      #e5e5e5
+ svetle fialova   #48418e
+ tmave fialova    #25133d
+
+ POUZITE PISMO
+ Source Sans Pro - rezy pisma light 300, regular 400 a bold 700
+ https://fonts.google.com/specimen/Roboto
+*/
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #e5e5e5;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+}
+a {
+	text-decoration: none;
+    color: #3e3281;
+}
+
+.obal {
+    width: 960px; /* obsah stránky je omezený do pruhu širokého 960px */
+    margin: 0 auto; /* pruh je na stránce vycentrovaný */
+    background: white;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.header-hlavni {
+	display: flex;
+	align-items: center;
+	background-color: white;
+	padding: 0rem;
+    font-size: 1.5rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.header-brand {
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.hlavni-navigace ul{
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+}
+.hlavni-navigace a {
+    text-decoration: none;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+.hlavni-navigace a:hover {
+	text-decoration: underline;
+}
+
+.pozadi {
+     padding: 0rem;
+}
+
+.tělo {
+    
+}
+
+.obsah {
+    
+}
+
+.ikonky {
+    display: flex;
+    align-content: stretch;
+}
+
+.dvojky {
+    display: flex;
+    font-style: ;
+}
+
+
+
+
+.paticka {
+    display: flex;
+    background-color: #48418e;
+    color: white;
+    justify-content: center;
+    padding: 0.5rem;
+    font-size: 90%;
+}

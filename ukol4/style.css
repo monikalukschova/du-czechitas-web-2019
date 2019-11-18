@@ -125,6 +125,7 @@ body {
     
 }
 .portfolio {
+    width: 100%;
     display: flex;
     flex-wrap: nowrap;
     padding: 0.5rem;
@@ -147,6 +148,7 @@ body {
 }
 
 .facebook{
+    width: 50%;
     justify-content: flex-start;
     padding: 0.5rem;
     border: solid;
@@ -165,17 +167,18 @@ body {
 
 .facebook a:hover {
     color: #3b5998;
-    
+}
+
+.facebook button {
+    padding: 1rem; 1rem;
 }
 
 .twitter {
-    justify-content: start;
+    width: 50%;
     padding: 0.5rem;
     border: solid;
     border-width: 0px 0px 0px 1px;
     border-color: #3f464d;
-    flex: auto;
-    display: inline-block;
 }
 
 .twitter a {
@@ -186,3 +189,4 @@ body {
 .twitter a:hover {
     color: #1da1f2;
 }
+*/
